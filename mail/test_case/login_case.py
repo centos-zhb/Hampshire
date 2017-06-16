@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 from time import sleep
 import unittest,random,sys
-from .model import myunit,function
-from .page_object.login_page import LoginPage
-from .page_object.mail_page import MailPage
+from mail.test_case.model import myunit,function
+from mail.test_case.page_object.login_page import LoginPage
+from mail.test_case.page_object.mail_page import MailPage
 sys.path.append('./model')
 sys.path.append('./page_object')
 
