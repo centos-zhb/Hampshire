@@ -1,9 +1,10 @@
 # -*- coding:utf-8 -*-
 import unittest,time
-from HTMLTestRunner import HTMLTestRunner
+from driver.HTMLTestRunner import HTMLTestRunner
+from driver import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
-import smtplib,os
+import os
 
 #发送测试报告，需要配置邮箱账号
 def send_mail(file_new):
